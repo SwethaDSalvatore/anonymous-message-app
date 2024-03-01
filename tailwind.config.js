@@ -7,6 +7,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        colors:{
+          darkPrimary:"023246",
+          darkSecondary:"287094",
+          lightPrimary:"D4D4CE",
+          lightSecondary:"F6F6FC"
+        },
         custom: ['Salsa', 'cursive'],
       },
     },
