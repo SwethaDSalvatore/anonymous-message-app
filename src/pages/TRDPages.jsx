@@ -9,7 +9,7 @@ const TRDpage = () => {
       <TRDHeroSection />
       <div className="max-w-6xl m-10">
         <h1 className="text-2xl text-center font-custom text-gray-900">Truth or Dare..!</h1>
-        <section className="max-w-6xl m-10 space-y-4">
+        <form className="max-w-6xl m-10 space-y-4">
           <select
             id="countries"
             class="bg-white border border-gray-300 text-gray-700 text-sm rounded-lg block w-full p-2.5 "
@@ -27,7 +27,7 @@ const TRDpage = () => {
           <button className="px-6 py-2 bg-gray-200 hover:bg-gray-400 rounded-lg mt-4 shadow font-semibold">
             Send
           </button>
-        </section>
+        </form>
         <section className="max-w-6xl m-10">
           <blockquote className="p-4 my-4 border-s-4 border-gray-400 bg-gray-100 rounded space-y-4">
             <h1 className="italic font-semibold leading-relaxed text-gray-900">Truth</h1>
