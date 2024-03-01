@@ -5,6 +5,7 @@ import GuestLayout from './layouts/Guest.jsx'
 import ErrorPage from './pages/Error.jsx'
 import App from './pages/App.jsx'
 import TRDPage from './pages/TRDPages.jsx'
+import SendMessage from "./pages/SendMessage.jsx"
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
         path: '/trd',
         element: <TRDPage />,
       },
+      {
+        path: '/sendmessage',
+        element: <SendMessage/>,
+      }
     ],
     errorElement:<ErrorPage/>,
   },
