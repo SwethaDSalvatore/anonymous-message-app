@@ -1,16 +1,15 @@
-import { Outlet } from "react-router-dom";
-import TheNavbar from "../components/TheNavbar";
-import Footer from "../components/Footer";
+import React from 'react'
+import Header from '../components/Header'
+import { Outlet } from 'react-router-dom'
 
-
-const GuestLayout = () => {
-    return (
-        <div className="">
-            {/* <TheNavbar /> */}
-            <Outlet />
-            {/* <Footer/> */}
-        </div>
-    );
+const Guest = () => {
+  return (
+    <>
+    <Header/>
+    <Outlet/>
+   
+    </>
+  )
 }
 
-export default GuestLayout;
+export default Guest
