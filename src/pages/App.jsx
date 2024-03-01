@@ -5,7 +5,7 @@ import HeroSection from "../components/HeroSection";
 const App = () => {
   return (
     <>
-    <Header/>
+    
     <HeroSection/>
     <div>
       <div className="max-w-6xl m-10">
