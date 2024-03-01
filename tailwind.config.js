@@ -6,7 +6,15 @@ export default {
   ],
   theme: {
     extend: {
+    
+      colors:{
+        darkPrimary : "#023246",
+        darkSecondary: "#287094",
+        lightPrimary:"#D4D4CE",
+        lightSecondary:"#F6F6FC"
+      },
       fontFamily: {
+       
         custom: ['Salsa', 'cursive'],
       },
     },

@@ -1,7 +1,12 @@
 import React from "react";
+import Header from "./Components/Header";
+import HeroSection from "./Components/HeroSection";
 
 const App = () => {
   return (
+    <>
+    <Header/>
+    <HeroSection/>
     <div>
       <div className="max-w-6xl m-10">
         <h1 className="text-2xl text-center font-custom">Write to Your Friend</h1>
@@ -32,7 +37,7 @@ const App = () => {
           </blockquote>
         </section>
       </div>
-    </div>
+    </div></>
   );
 };
 
