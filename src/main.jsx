@@ -6,6 +6,7 @@ import ErrorPage from './pages/Error.jsx'
 import App from './pages/App.jsx'
 import TRDPage from './pages/TRDPages.jsx'
 import SendMessage from "./pages/SendMessage.jsx"
+import HomePage from './pages/HomePage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <App />,
+        element: <HomePage/>,
       },
       {
         path: '/trd',
