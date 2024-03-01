@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./Components/Header";
-import HeroSection from "./Components/HeroSection";
+import Header from "../components/Header";
+import HeroSection from "../components/HeroSection";
 
 const App = () => {
   return (

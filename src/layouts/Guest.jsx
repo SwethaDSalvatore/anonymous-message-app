@@ -6,9 +6,9 @@ import Footer from "../components/Footer";
 const GuestLayout = () => {
     return (
         <div className="">
-            <TheNavbar />
+            {/* <TheNavbar /> */}
             <Outlet />
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     );
 }
