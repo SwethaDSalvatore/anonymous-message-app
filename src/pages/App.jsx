@@ -11,12 +11,6 @@ const App = () => {
       <div className="max-w-6xl m-10">
         <h1 className="text-2xl text-center font-custom">Write to Your Friend</h1>
         <section className="max-w-6xl m-10">
-          {/* <label
-            htmlFor="message" // Change "for" to "htmlFor" for proper JSX syntax
-            className="block mb-2 text-sm font-medium text-black"
-          >
-            Write Your message below :
-          </label> */}
           <textarea
             id="message"
             rows="4"

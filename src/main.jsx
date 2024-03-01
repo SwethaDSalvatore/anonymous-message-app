@@ -4,9 +4,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import GuestLayout from './layouts/Guest.jsx'
 import ErrorPage from './pages/Error.jsx'
 import App from './pages/App.jsx'
-import HomePage from './pages/HomePage.jsx'
-import SendMessage from './pages/SendMessage.jsx'
-
+import TRDPage from './pages/TRDPages.jsx'
 
 const router = createBrowserRouter([
   {
@@ -15,11 +13,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element:<HomePage/>,
+        element: <App />,
       },
       {
-        path: '/sendmessage',
-        element:<SendMessage/>,
+        path: '/trd',
+        element: <TRDPage />,
       },
     ],
     errorElement:<ErrorPage/>,
